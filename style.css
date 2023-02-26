@@ -118,3 +118,45 @@ img{
         cursor: pointer;
     }
 }
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+    .wrapper {
+        width: 1200px;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        scroll-behavior: smooth;
+        overflow-x: scroll;
+    }
+
+    .image{
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+        overflow: hidden;
+        margin: 10px 10px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .wrapper {
+        width: 1200px;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        scroll-behavior: smooth;
+        overflow-x: scroll;
+    }
+
+    .image{
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+        overflow: hidden;
+        margin: 10px 10px;
+        cursor: pointer;
+    }
+}
